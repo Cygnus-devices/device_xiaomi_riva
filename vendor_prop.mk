@@ -206,6 +206,10 @@ ro.adb.secure=0 \
 ro.secure=0 \
 ro.debuggable=1
 
+# VSync for CPU rendered app
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    debug.cpurend.vsync=false
+
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0 \
