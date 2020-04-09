@@ -12,8 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_SOONG_NAMESPACES += \
-    vendor/qcom/common/perf
 
 PRODUCT_COPY_FILES += \
     vendor/qcom/common/perf/proprietary/bin/perfservice:$(TARGET_COPY_OUT_SYSTEM)/bin/perfservice \
