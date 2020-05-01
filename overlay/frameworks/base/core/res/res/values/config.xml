@@ -497,4 +497,9 @@
 
     <!-- Keypress Boost duration -->
     <integer name="fpunlockboost_duration">800</integer>
+
+    <!-- The list of components which should be automatically disabled for a specific device. -->
+    <string-array name="config_deviceDisabledComponents" translatable="false">
+        <item>com.google.android.gms/com.google.android.gms.nearby.discovery.service.DiscoveryService</item>
+    </string-array>
 </resources>
