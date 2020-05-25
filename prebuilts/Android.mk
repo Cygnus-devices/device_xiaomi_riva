@@ -11,8 +11,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/priv-app
 LOCAL_OVERRIDES_PACKAGES := Eleven
 include $(BUILD_PREBUILT)
 
-LOCAL_PATH := $(call my-dir)
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := OPCalculator
 LOCAL_MODULE_TAGS := optional
@@ -23,8 +21,6 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_PATH := $(TARGET_OUT)/priv-app
 LOCAL_OVERRIDES_PACKAGES := Eleven
 include $(BUILD_PREBUILT)
-
-LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := OPMessages
