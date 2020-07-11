@@ -163,6 +163,10 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \
     android.hardware.gatekeeper@1.0-service
 
+# Google Messages
+PRODUCT_PACKAGES += \
+    GoogleMessages
+
 # GPS
 PRODUCT_PACKAGES += \
     libbatching \
