@@ -138,12 +138,7 @@
          scan and wake the host when a configured SSID is detected by the dongle. This chipset
          capability can provide power savings when wifi needs to be always kept on. -->
     <bool name="config_wifi_background_scan_support">true</bool>
-
-    <!-- IWLAN -->
-    <string name="config_wlan_data_service_package" translatable="false">vendor.qti.iwlan</string>
-    <string name="config_wlan_network_service_package" translatable="false">vendor.qti.iwlan</string>
-    <string name="config_qualified_networks_service_package" translatable="false">vendor.qti.iwlan</string>
-
+	
     <!-- This string array should be overridden by the device to present a list of network
          attributes.  This is used by the connectivity manager to decide which networks can coexist
          based on the hardware -->
@@ -414,4 +409,12 @@
 
     <!-- Should we filter any display modes which are unampped? -->
     <bool name="config_filterDisplayModes">true</bool>
+
+    <!-- Configuration to enable non-default PDP during IWLAN -->
+    <bool name="config_feature_iwlan_enabled">true</bool>
+
+    <!-- IWLAN -->
+    <string name="config_wlan_data_service_package" translatable="false">vendor.qti.iwlan</string>
+    <string name="config_wlan_network_service_package" translatable="false">vendor.qti.iwlan</string>
+    <string name="config_qualified_networks_service_package" translatable="false">vendor.qti.iwlan</string>
 </resources>
