@@ -41,3 +41,9 @@
 
 # Root filesystem
 /firmware(/.*)?                                 u:object_r:firmware_file:s0
+
+# Advanced Controls
+/sys/devices/platform/kcal_ctrl.0(/.*)?                      u:object_r:kcal_dev:s0
+/sys/bus/platform/drivers/kcal_ctrl(/.*)?                    u:object_r:kcal_dev:s0
+/sys/devices/soc/qpnp-flash-led-25/leds/led:torch_0/max_brightness          u:object_r:sysfs_torch:s0
+/sys/devices/soc/qpnp-flash-led-25/leds/led:torch_1/max_brightness           u:object_r:sysfs_torch:s0

@@ -1,2 +1,4 @@
 allow init sysfs_devices_system_cpu:dir r_dir_perms;
 allow init sysfs_leds:lnk_file read;
+allow init sysfs_type:file { setattr };
+
