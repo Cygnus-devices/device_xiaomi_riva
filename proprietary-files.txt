@@ -1908,3 +1908,23 @@ vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.default.so|bed4
 # Display calibration - from riva - V9.2.4.0.NCKMIEK
 vendor/etc/qdcm_calib_data_hx8394F_HD720p_video_BOE_c3b.xml|1483bbcd78dfaa723c0c15caad7f1cbce41fdf1d
 vendor/etc/qdcm_calib_data_ili9881c_HD720p_video_Ebbg_c3b.xml|814bc2ee08678f07a2065a4e911964c1fd5a298a
+
+# MotoDolbyV3
+-app/MotoDolbyV3/MotoDolbyV3.apk
+-product/priv-app/daxService/daxService.apk
+etc/permissions/com.dolby.daxservice.xml
+etc/permissions/com.motorola.dolby.dolbyui.features.xml
+etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml
+product/etc/permissions/com.dolby.daxservice.xml
+vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service
+vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc
+vendor/etc/dolby/dax-default.xml
+vendor/lib/libdapparamstorage.so
+vendor/lib/libstagefrightdolby.so
+vendor/lib/vendor.dolby.hardware.dms@1.0.so
+vendor/lib/soundfx/libswdap.so
+vendor/lib64/libdapparamstorage.so
+vendor/lib64/libdlbdsservice.so
+vendor/lib64/soundfx/libswdap.so
+vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so
+vendor/lib64/vendor.dolby.hardware.dms@1.0.so
